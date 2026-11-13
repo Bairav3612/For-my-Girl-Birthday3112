@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#100923">
+  <meta name="description" content="A little universe made for Boomika, with love from Bairavan.">
+  <title>For Boomika ✦ From Bairavan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <div class="petal-layer" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home">✦ B <span>×</span> B</a>
+    <button class="music-toggle" id="musicToggle" type="button" aria-pressed="false">♫ Music: off</button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="eyebrow">A LITTLE UNIVERSE, MADE JUST FOR YOU</div>
+      <div class="orbit" aria-hidden="true"><span>✦</span><span>♡</span><span>✧</span></div>
+      <p class="small-line">31 · 12 · 2026</p>
+      <h1>Happy Birthday,<br><em>Boomi</em></h1>
+      <p class="hero-copy">Some people make the world brighter just by being in it.<br>This little universe is for you.</p>
+      <p class="signature">With love, Bairav ♡</p>
+      <a class="primary-btn" href="#journey">Enter your surprise <span>↓</span></a>
+      <div class="scroll-note">SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="section intro" id="journey">
+      <div class="section-kicker">YOUR BIRTHDAY JOURNEY</div>
+      <h2>Every little star<br>has a <em>surprise.</em></h2>
+      <p>Take your time. Tap, open, read and smile. I made every part with you in mind.</p>
+      <div class="journey-grid">
+        <a class="journey-card" href="#gallery"><span class="card-icon">▧</span><b>Our little gallery</b><small>Moments worth keeping</small></a>
+        <a class="journey-card" href="#reasons"><span class="card-icon">♡</span><b>100 little reasons</b><small>A hundred things to celebrate</small></a>
+        <a class="journey-card" href="#letter"><span class="card-icon">✉</span><b>A letter for you</b><small>From my heart to yours</small></a>
+        <a class="journey-card" href="#gift"><span class="card-icon">♢</span><b>A secret gift</b><small>There's something inside</small></a>
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="section-kicker">CHAPTER 01 · LITTLE MOMENTS</div>
+      <h2>Memories in <em>starlight.</em></h2>
+      <p class="section-copy">Tap each little symbol to flip it and reveal a favourite memory. ♡</p>
+      <div class="gallery-grid" id="galleryGrid" aria-label="Six hidden photo memories"></div>
+      <p class="hint">Add your six photos to <code>assets/photos/</code> using the filenames photo1.jpg to photo6.jpg.</p>
+    </section>
+
+    <section class="section reasons-section" id="reasons">
+      <div class="section-kicker">CHAPTER 02 · ONE HUNDRED LITTLE THINGS</div>
+      <h2>100 reasons<br><em>you are special.</em></h2>
+      <p class="section-copy">A small reminder that you are appreciated. Tap a star to reveal a reason.</p>
+      <div class="reason-counter"><span id="reasonCount">0</span> / 100 discovered</div>
+      <div class="reason-box">
+        <div class="reason-star">✦</div>
+        <p id="reasonText">Your next little reason is waiting here.</p>
+        <button class="primary-btn" id="reasonButton" type="button">Reveal a reason ✨</button>
+      </div>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <div class="section-kicker">CHAPTER 03 · A LETTER FOR YOU</div>
+      <h2>Words from<br><em>my heart.</em></h2>
+      <article class="letter">
+        <div class="letter-top">✦ &nbsp; FOR BOOMIKA &nbsp; ✦</div>
+        <p>Dear Boomika, "🌹𑂢ᰈᰱ།ᰈ།থᰔᩚ✿🧚"</p>
+        <p>On your birthday, I hope you remember how precious you are. May this new year of your life bring you peaceful mornings, brave dreams, genuine smiles and countless reasons to feel proud of yourself.</p>
+        <p>உன் வாழ்க்கையில் மகிழ்ச்சி நிறைய இருக்கட்டும். நீ நினைக்கும் நல்ல கனவுகள் எல்லாம் நனவாகட்டும். எப்போதும் உன் முகத்தில் அழகான புன்னகை இருக்கட்டும்.</p>
+        <p>Thank you for being someone worth celebrating. Whatever the future brings, I genuinely wish you happiness, success and all the beautiful things life can offer.</p>
+        <p>என் மனதினை வென்ற என் இனியவளுக்கு என் இனிய பிறந்தநாள் வாழ்த்துக்கள்...! உன் ஒவ்வொரு நாளும் அழகான நினைவுகளால் நிறையட்டும்.</p>
+        <p class="letter-sign">With warm wishes,<br><strong>Bairavan ♡</strong></p>
+        <div class="letter-bottom">MADE WITH CARE · 31.12.2026</div>
+      </article>
+    </section>
+
+    <section class="section gift-section" id="gift">
+      <div class="section-kicker">CHAPTER 04 · THE SECRET GIFT</div>
+      <h2>A little box,<br><em>a little magic.</em></h2>
+      <p class="section-copy">There is a surprise waiting inside. Tap the box to open it.</p>
+      <button class="gift-wrap" id="giftButton" type="button" aria-label="Open the secret gift">
+        <span class="gift-glow"></span><span class="gift-lid"></span><span class="gift-box"></span><span class="gift-ribbon"></span><span class="gift-bow">♡</span>
+      </button>
+      <div class="gift-message" id="giftMessage" hidden>
+        <div class="big-heart">♡</div>
+        <h3>Your wish deserves a universe.</h3>
+        <p>May life surprise you with kindness, opportunities, laughter and love. Keep shining, 🌹𑂢ᰈᰱ།ᰈ།থᰔᩚ✿🧚.</p>
+      </div>
+    </section>
+
+    <section class="section voice-section" id="voice">
+      <div class="section-kicker">CHAPTER 05 · A VOICE NOTE</div>
+      <h2>A message,<br><em>in my voice.</em></h2>
+      <p class="section-copy">Listen to a little birthday message recorded just for you.</p>
+      <div class="audio-panel">
+        <div class="audio-icon">♫</div>
+        <div><b>A little message from Bairav♥</b><small>Personal voice recording</small></div>
+        <audio id="voiceAudio" controls preload="none">
+          <source src="assets/audio/my-voice.mp3" type="audio/mpeg">
+          Your browser does not support audio.
+        </audio>
+        <p class="hint">Add your recording as <code>assets/audio/voice-message.mp3</code>.</p>
+      </div>
+    </section>
+
+    <section class="section countdown-section" id="countdown">
+      <div class="section-kicker">THE FINAL SURPRISE</div>
+      <h2>Counting down to<br><em>your special day.</em></h2>
+      <div class="countdown" aria-live="polite">
+        <div><strong id="days">--</strong><span>days</span></div>
+        <div><strong id="hours">--</strong><span>hours</span></div>
+        <div><strong id="minutes">--</strong><span>minutes</span></div>
+        <div><strong id="seconds">--</strong><span>seconds</span></div>
+      </div>
+      <p id="countdownMessage" class="countdown-message">A new chapter is almost here. ✦</p>
+      <div class="final-note">
+        <div class="final-star">✧</div>
+        <h3>Keep being wonderfully you.</h3>
+        <p>Happy Birthday, Boomika. May your universe always be full of light.</p>
+        <span>— Bairavan</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>MADE WITH ♡ FOR BOOMIKA <span>·</span> 31 DECEMBER 2026</footer>
+  <script src="script.js"></script>
+</body>
+</html>
